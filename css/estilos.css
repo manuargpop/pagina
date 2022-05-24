@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contenedor{
+    width: 100%;    
+    height: 100%;
+    display: table;
+    background-color: bisque;
+}
+
+#encabezado{
+    width: 100%;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+#pie_pag{
+    width: 100%;
+    height: 100px;
+    background-color: chocolate;
+    text-align: center;
+    color: chartreuse;
+    padding-top: 2%;
+}
+
+#cuerpo{
+    width: 90%;
+    height: 250px;
+    display: table;
+    color: purple;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:2% ;
+}
+
+#nav{
+    background-color: salmon;
+    width: 100%;
+}
+
+#nav ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#nav ol li{
+    list-style: none;
+    margin-right: 2%;
+    font-size: 16pt;
+    border-left: silver solid 1px;
+    border-right: silver solid 1px;
+}
+
+#nav ol li a{
+    text-decoration: none;
+    padding: 20px 25px 20px 25px;
+    display: table;
+}
+
+#nav ol li a:hover{
+    background-color: snow;
+    color: orangered;
+}
